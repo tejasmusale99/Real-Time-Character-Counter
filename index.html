@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Time Character counter</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
         <h2>Real-Time Character Counter</h2>
-        <textarea  id="textarea" class="textarea" placeholder="Write your hext here...."></textarea>
+        <textarea  id="textarea" class="textarea" placeholder="Write your hext here...." maxlength="50">Tejas</textarea>
         <div class="counter-container">
             <p>
-                Total characters: 
+                Total characters : 
                 <span class="total-counter" id="total-counter">30</span>
             </p>
             <p>
-                Remaining characters: 
+                Remaining : 
                 <span class="remaining-counter" id="remaining-counter">20</span>
             </p>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
